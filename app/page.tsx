@@ -1,7 +1,7 @@
 import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import { fontSmooch } from './ui/fonts';
+import { fontSmooch, lusitana } from './ui/fonts';
 import Image from 'next/image';
 import styles from '@/app/ui/home.module.css';
 import InvoiceStatus from './ui/invoices/status';
@@ -32,6 +32,8 @@ export default function Page() {
 
           <InvoiceStatus status='pending'/>
           <InvoiceStatus status='paid'/>
+
+          <p className={`${lusitana.className}`}>importar fuente</p>
 
 
         </div>

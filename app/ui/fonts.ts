@@ -1,4 +1,4 @@
-import { Rubik, Smooch } from "next/font/google";
+import { Rubik, Smooch, Lusitana } from "next/font/google";
 
 export const fontRubik = Rubik({
     subsets: ["latin"],
@@ -6,6 +6,10 @@ export const fontRubik = Rubik({
   });
 
 export const fontSmooch = Smooch({
+    subsets: ["latin"],
+    weight: ["400"],
+  });
+export const lusitana = Lusitana({
     subsets: ["latin"],
     weight: ["400"],
   });
